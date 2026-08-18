@@ -381,16 +381,6 @@ void updateLCD() {
   }
   
   lcd.setCursor(12,1); lcd.print(rVal);
-
-  // if (flags.acquisitionStarted) {
-  //   logValue(bpm1, bpm2, rVal);
-  //   Serial.print("BPM1:");
-  //   Serial.print(bpm1);
-  //   Serial.print(";BPM2:");
-  //   Serial.print(bpm2);
-  //   Serial.print(";R:");
-  //   Serial.println(rVal);
-  // }
 }
 
 void logValue(int16_t bpm1, int16_t bpm2, int16_t rVal) {
